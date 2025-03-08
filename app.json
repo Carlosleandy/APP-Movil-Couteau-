@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "app06",
+    "slug": "app06",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/foto.png",  // Cambia aquí a tu foto
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/foto.png",  // También usa tu foto como splash screen (opcional)
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/foto.png",  // Cambia aquí para Android
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/foto.png"  // Cambia aquí si también quieres tu foto como favicon
+    }
+  }
+}
