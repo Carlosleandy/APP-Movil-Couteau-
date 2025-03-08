@@ -4,11 +4,11 @@
     "slug": "app06",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/foto.png",  // Cambia aquí a tu foto
+    "icon": "./assets/foto.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/foto.png",  // También usa tu foto como splash screen (opcional)
+      "image": "./assets/foto.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/foto.png",  // Cambia aquí para Android
+        "foregroundImage": "./assets/foto.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.carlosleandy.app06"
     },
     "web": {
-      "favicon": "./assets/foto.png"  // Cambia aquí si también quieres tu foto como favicon
+      "favicon": "./assets/foto.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8e9fad7-bfc9-47d5-9fb4-e181493e36ce"
+      }
     }
   }
 }
