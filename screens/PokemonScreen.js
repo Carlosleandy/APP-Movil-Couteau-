@@ -11,11 +11,11 @@ export default function PokemonScreen() {
     if (!pokemonName) return; // No hacer nada si no hay nombre
     setLoading(true);
     try {
-      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`);
-      setPokemonData(response.data);
+    const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`);
+    setPokemonData(response.data);
     } catch (error) {
-      console.error('Error al obtener el Pokémon:', error);
-      setPokemonData(null);
+    console.error('Error al obtener el Pokémon:', error);
+    setPokemonData(null);
     }
     setLoading(false);
   };
